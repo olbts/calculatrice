@@ -1,0 +1,88 @@
+body {
+    margin:0;
+    padding:0;
+    background-color : rgba(96, 175, 232, 0.726);
+  } 
+  main{
+    display: flex;
+  align-items: center; 
+  justify-content: center;
+  height: 100vh;
+
+  margin:0; 
+  padding : 0;
+  color :coral; 
+  flex-direction: column;
+  overflow: hidden; 
+
+  } 
+  .grande{
+
+    display: flex; 
+
+
+  }
+  .petite{
+    width : 60px; 
+    height:60px; 
+    background-color: rgba(255, 255, 255, 0.90); 
+
+    font-size: 1.2rem;; 
+
+    border : 1px solid green ;
+    cursor: pointer;
+    border-collapse: collapse;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  } 
+  .petite:hover{
+    background-color: rgba(255, 255, 255, 0.70);
+  } 
+  #equal{
+    width : 182px;
+  } 
+  .oki{
+
+    background-color: rgba(26, 25, 25,0.90); 
+    color: aliceblue; 
+    width : 306px ; 
+    height:100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+
+  } 
+  p{
+    text-align: right;
+    margin:0;
+
+  }
+  .resultat{
+    font-size :1.6rem; 
+    font-weight: 300; 
+
+    padding:10px; 
+
+
+  } 
+  .result{
+    color :gray; 
+    padding:10px;
+
+
+
+
+  }
+  .reset{
+    width : 122px ; 
+    font-weight: bold;
+    color :rgb(0, 0, 0)
+  }
+  .plus,.moins{
+    color:rgb(190, 22, 233);
+  } 
+  .egal{
+    font-size: 2rem;
+    color:rgb(16, 12, 241)
+  }
